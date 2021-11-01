@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="RestApi.css">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+ <div>
+        <section class="contact">
+            <h1>Contact Form</h1>
+            <h4>Please fill all the text in the feilds.</h4>
+        </section>
+        <section class="details">
+            <form action="/handelfrom" methord="Get">
+               <p>Your Roll Number Id:</p>
+                <input id="name" type="text" placeholder="Your Roll Number" name="id" required>
+                <p>Your Name:</p>
+                <input id="name" type="text" placeholder="Your Full Name" name="name" required>
+                <p>Your Email:</p>
+                <input type="emai" placeholder="Valid Email Address" name="emailId" required>
+              
+              <p>Your Contact Number:</p>
+                <input type="number" placeholder="Valid Phone Number" name="contact" required>
+                <p>Message:</p>
+                <textarea name="message" placeholder="Give your valuable message" id="address" cols="100"
+                    rows="8"></textarea>
+              
+               
+                <br>
+                <button id="Submit" type="submit" value="Submit">Submit</button>
+                <button id="Submit" type="reset" value="Submit">Reset</button>
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>
